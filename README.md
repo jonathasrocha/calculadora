@@ -51,11 +51,11 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
 
 ### Como compilar e executar o programa
 
-* Para a criar o codigo usei a linguagem de programação _Javascript_ 
+* Para a criar o codigo ultilizei a linguagem de programação _Javascript_ 
 
 * O arquivo com a liguagem esta com o nome e extensão _calculadora.js_
 
-* A _calculadora.js para rodar devera ser instalado em sua maquina o node e no terminal digitar node _calculadora.js_ para e inicializar as operações
+* A _calculadora.js para rodar devera ter instalado em sua maquina o node e no terminal digitar node _calculadora.js_ para e inicializar a aplicação
 
 
 
