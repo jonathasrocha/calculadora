@@ -1,9 +1,8 @@
-# CALCULADORA 
+# CALCULADORA PARTE 1 e PARTE 2  
+DESAFIO TECNICO CAPGEMINI
 
-### PARTE 1 e PARTE 2  desafio tecnico Capgemini
 
-
-# Desafio Proposto
+## Desafio Proposto
 
 ## Parte 1
 
