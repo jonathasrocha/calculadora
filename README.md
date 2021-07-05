@@ -53,6 +53,7 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
 
 Para a criação do codigo usei a linguagem de programação _Javascript_ 
 O arquivo com a liguagem esta com o nome e extensão _calculadora.js_
+O sitema de cadastro de anuncios devera ter instalado em sua maquina o _node_ 
 
 
 
