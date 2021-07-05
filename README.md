@@ -1,10 +1,10 @@
 # CALCULADORA
 
-# Calculadora PARTE 1 e PARTE 2 desafio tecnico Capgemini  
+## Calculadora PARTE 1 e PARTE 2 desafio tecnico Capgemini  
 
 ## Desafio Proposto 
 
-## Parte 1 
+### Parte 1 
 
 A cada 100 pessoas que visualizam o anúncio 12 clicam nele.
 a cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
@@ -15,7 +15,7 @@ o mesmo anúncio é compartilhado no máximo 4 vezes em sequência
 
 Crie um script em sua linguagem de programação preferida que receba o valor investido em reais e retorne uma projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio (considerando o anúncio original + os compartilhamentos)
 
- ## Parte 2
+ ### Parte 2
  
  Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter os seguintes dados:
 
