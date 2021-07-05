@@ -3,8 +3,7 @@ DESAFIO TECNICO CAPGEMINI
 
 
 
-## Parte 1
-
+### Parte 1
 
 Crie um script em sua linguagem de programação preferida que receba o valor investido em reais e retorne uma projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio (considerando o anúncio original + os compartilhamentos)
 
@@ -19,7 +18,7 @@ o mesmo anúncio é compartilhado no máximo 4 vezes em sequência
 
  
 
-## Parte 2
+### Parte 2
 Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter os seguintes dados:
 
 - [x] nome do anúncio
