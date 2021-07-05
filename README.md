@@ -1,8 +1,7 @@
-# CALCULADORA PARTE 1 e PARTE 2  
+## CALCULADORA PARTE 1 e PARTE 2  
 DESAFIO TECNICO CAPGEMINI
 
 
-## Desafio Proposto
 
 ## Parte 1
 
@@ -17,7 +16,6 @@ cada compartilhamento nas redes sociais gera 40 novas visualizações.
 o mesmo anúncio é compartilhado no máximo 4 vezes em sequência
 (1ª pessoa -> compartilha -> 2ª pessoa -> compartilha - > 3ª pessoa -> compartilha -> 4ª pessoa)
 
-- [x] Lingugem utilizada Javascript
 
  
 
@@ -49,6 +47,14 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
  
 
 - [x] Os relatórios poderão ser filtrados por intervalo de tempo e cliente.
+
+
+
+### Como compilar e executar o programa
+
+Para a criação do codigo com a liguagem de programação utilizei a linguagem _Javascript_ 
+O arquivo com a liguagem esta com o nome _calculadora.js_
+
 
 
 
