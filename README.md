@@ -55,7 +55,7 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
 
 * O arquivo com a liguagem esta com o nome e extensão _calculadora.js_
 
-* O sitema de cadastro de anuncios devera ter instalado em sua maquina o _node_ para que possa rodar corretamente
+* A _calculadora.js para rodar devera ser instalado em sua maquina o node e no terminal digitar node _calculadora.js_ para e inicializar as operações
 
 
 
