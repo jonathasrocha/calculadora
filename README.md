@@ -57,6 +57,22 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
 
 * A _calculadora.js_ para rodar o desafio devera ter instalado em sua maquina o [node](https://nodejs.org/en/) 
 
+* Segunda parte ultilizei o _Docker_ com dois containers um para rodar o _Mongo_ (banco uasado para pessistir os dados) e o segundo para rodar o _node_.
+
+* Para executar o sistema use apenas o comando abaixo que monta as imagens e roda os containers em background.
+
+ `docker-compose up -d --build`
+ 
+ * localhost:8080 porta de acesso
+ 
+
+![Captura de Tela 2021-07-06 às 01 03 12](https://user-images.githubusercontent.com/63822305/124542775-64f0d780-ddfa-11eb-9a79-c4236efd3fe0.png)
+ ![Captura de Tela 2021-07-06 às 01 04 39](https://user-images.githubusercontent.com/63822305/124542705-44288200-ddfa-11eb-85e1-6bc9a613b386.png)
+
+ 
+ 
+ 
+ 
 
 
 
