@@ -1,0 +1,57 @@
+extends layout
+
+block content
+  -ads = ads || {}
+  if errors
+    ul
+      for error in errors
+        li= error.msg
+  form(action="/ads" method="POST") 
+    label(for="client") Client:
+    input(
+        type="text"
+        id="client"
+        name="Client"
+    )
+    label(for="start_date") Start date:
+    input(
+        type="text"
+        id="start_date"
+        name="start_date"
+    )
+
+    label(for="end_date") End date:
+    input(
+        type="text"
+        id="end_date"
+        name="end_date"
+    )
+    input(type="submit" value="Seach")
+
+  if ads.length
+     table
+       tr
+         th Name
+         th Client
+         th Start Date
+         th End Date
+         th Invest per day
+         th Total invest
+         th Total clicks
+         th Total shared
+         th total views
+       each ad in ads
+         - var total_investment = moment(ad.end).diff((ad.start), 'days') * ad.investment
+         - var result = calculadora(total_investment)
+         tr
+            td= ad.name	
+            td= ad.client
+            td= moment(ad.start).format('YYYY-MM-DD')
+            td= moment(ad.end).format('YYYY-MM-DD')
+            td=ad.investment
+            td=total_investment
+            td=result[1]
+            td=result[2]
+            td=result[0]
+  else
+    p No ads yet :(

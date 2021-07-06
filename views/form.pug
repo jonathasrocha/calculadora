@@ -1,0 +1,57 @@
+extends layout
+
+block content
+  -data = data || {}
+  a(href='ads') Reports invest
+  if errors
+    ul
+      for error in errors
+        li= error.msg
+
+
+
+  form(action="." method="POST")
+    label(for="name") Name:
+    input(
+      	type="text"
+      	id="name"
+      	name="name"
+	value=data.name
+    )
+
+    label(for="client") Client:
+    input(
+      	type="text"
+      	id="client"
+      	name="client"
+	value=data.client    
+)
+
+	
+
+    label(for="start") Start:
+    input(
+      	type="text"
+      	id="start"
+      	name="start"
+	value=data.start
+    )
+
+
+    label(for="end") End:
+    input(
+      	type="text"
+      	id="end"
+      	name="end"
+	value=data.end
+    )
+
+
+    label(for="investment") Investment:
+    input(
+      	type="text"
+      	id="investment"
+      	name="investment"
+	value=data.investment
+    )
+    input(type="submit" value="Submit")
