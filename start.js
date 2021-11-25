@@ -1,7 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DATABASE, {
+mongoose.connect("mongodb://mongo:27017/", {
   useNewUrlParser: true
 });
 

@@ -17,13 +17,14 @@ router.post('/',[
       	.withMessage('Informe um nome com mais de cinco digitos'),
     check('latitude')
       	.notEmpty()
+		.isNumeric()
       	.withMessage('Informe a cordenada x'),
 	check('longitude')
 		.notEmpty()
+		.isNumeric()
 		.withMessage('Informe a cordenada y'),
   ], (req, res) => {
-	const errors = validationResult(req);
-
+		const errors = validationResult(req);
     	if (errors.isEmpty()) {
 		const points = new Points(req.body);
 		points.save()
@@ -34,17 +35,17 @@ router.post('/',[
     		}); 
     	} else {
       		res.render('form', {
-        	title: 'Registration form',
+        	title: 'Cadastra ponto',
         	errors: errors.array(),
         	data: req.body,
       });
     }
 });
 
-router.get('/ads', (req, res) => {
+router.get('/points', (req, res) => {
 	Points.find()
     .then((points) => {
-      res.render('index', { title: 'Listing Ads', points, calculadora});
+      res.render('index', { title: 'todos os pontos cadastrados', points});
     })
     .catch((e) => { res.send('Sorry! Something went wrong.'+e); });
 });

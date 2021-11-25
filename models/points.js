@@ -14,20 +14,22 @@ const registrationSchema = new mongoose.Schema({
 		type: Number,
 		trim: true
 	},
-    parameter:{
-        name: {
-    		type: String,
-    		trim: true,
-  	    },
-        value:{
-            type: Number,
-		    trim: true
-        },
-        collect_data:{
-            type: Date,
-            trim: true
-        }
-    }
+    parameter:[
+		{
+			name: {
+				type: String,
+				trim: true,
+			},
+			value:{
+				type: Number,
+				trim: true
+			},
+			collect_data:{
+				type: Date,
+				trim: true
+			}
+    	}
+	]
 });
 
 module.exports = mongoose.model('Points', registrationSchema);
