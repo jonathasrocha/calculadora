@@ -1,13 +1,6 @@
-extends layout
+extends layout 
 
 block content
-  -data = data || {}
-  a(href='ads') cordenadas cadastradas
-  if errors
-    ul
-      for error in errors
-        li= error.msg
-
   form(action=".", method="POST")
     label(for="name") Name:
     input(
@@ -17,7 +10,7 @@ block content
 	    value=10
     )
     br
-    label(for="x") Cordenada X:
+    label(for="latitude") Cordenada X:
     input(
       	type="text"
       	id="latitude"
@@ -25,7 +18,7 @@ block content
 	    value=10
     )
     br
-    label(for="y") Cordenada Y:
+    label(for="longitude") Cordenada Y:
     input(
       	type="text"
       	id="longitude"

@@ -6,28 +6,7 @@ block content
     ul
       for error in errors
         li= error.msg
-  form(action="/ads" method="POST") 
-    label(for="client") Client:
-    input(
-        type="text"
-        id="client"
-        name="Client"
-    )
-    label(for="start_date") Start date:
-    input(
-        type="text"
-        id="start_date"
-        name="start_date"
-    )
-
-    label(for="end_date") End date:
-    input(
-        type="text"
-        id="end_date"
-        name="end_date"
-    )
-    input(type="submit" value="Seach")
-
+        
   if ads.length
      table
        tr
